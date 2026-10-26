@@ -10,7 +10,7 @@ I build systems that connect GTM data, decisions, and AI-driven action.
 
 > Evidence-backed champion tracking, GTM intelligence, and pipeline decisions with explicit uncertainty, provenance, seller feedback, and evaluation.
 
-**[Account prioritization in Clay](https://github.com/vrutikadani/clay-account-prioritization)**: an ICP gate that runs before any paid research, gated web research, a deterministic 1–100 score kept separate from evidence confidence, and human QA overrides wired into the score.
+**[Account prioritization in Clay](https://github.com/vrutikadani/clay-account-prioritization)**: progressive enrichment, evidence-backed GTM signals, deterministic scoring, separate confidence, buyer mapping and human QA.
 
 **[ai-sdr-agent](https://github.com/vrutikadani/ai-sdr-agent)**: first touch on inbound leads. The model labels replies; rules decide scoring, suppression and handoff; anything uncertain goes to a person.
 
