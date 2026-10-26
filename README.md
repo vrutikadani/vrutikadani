@@ -1,42 +1,49 @@
-### Hi, I'm Vrutik 👋
+## Vrutik Adani
 
-**Technical Product Manager | GTM Systems & AI Engineering**
+**Technical Product Manager · GTM Systems & AI Engineering**
+AI Agents · Revenue Systems · CRM Architecture
 
-I build the systems revenue teams run on: a full HubSpot portal designed end to end, AI agents that work leads, commission engines that pay reps correctly, territory and routing logic, and CRM automations that turn messy data into decisions. For the last few years I've partnered directly with a CFO and executive team at a medical device + consumables company with **$33M+ in rolling 12-month revenue**.
+I build AI products and GTM systems at the intersection of product, engineering, revenue operations and data. At Geneo United (part of Lumenis U.S. Facial Aesthetics) I own products and infrastructure used across Sales, Marketing, Finance, Customer Success and executive leadership, for a business with **$33M+ in rolling 12-month revenue**.
 
-I believe most business problems are workflow and systems problems, not just data problems. I like owning them end to end: find the manual work, design the fix, ship it, and measure it.
+What interests me most is not the AI demo, but **the system around it**: deterministic business logic, clean data, workflow design, guardrails, evaluation, observability and adoption. AI is valuable when the people using it can trust what happens before and after the model makes a decision.
 
 ---
 
-#### Featured work
+### Selected work
 
-| Project | What it does | Impact in production |
+Production systems I built, rebuilt here with synthetic data so the code can be public. Every repo runs offline and has tests and CI.
+
+| Project | What it is | In production |
 |---|---|---|
-| 🏗️ [**HubSpot RevOps System**](https://github.com/vrutikadani/hubspot-revops-system) | Architecture of a full HubSpot portal I built: lifecycle engine, owner routing, price approval chain, service tickets | **700+ workflows (400+ active)**, lifecycle engine with **370K+ enrollments** |
-| 🧹 [**HubSpot ZIP Data Quality**](https://github.com/vrutikadani/hubspot-zip-data-quality) | Custom-code action that fixes city/state from ZIP with majority vote, dry run and safety rules | Runs on contacts, companies and deals; keeps routing accurate |
-| 🤖 [**AI First-Touch SDR Agent**](https://github.com/vrutikadani/ai-sdr-agent) | Scores inbound leads, emails them, reads replies and hands qualified buyers to SDRs. Claude API + HubSpot | **~12 hrs/week** of SDR effort removed |
-| 💰 [**Commission Engine**](https://github.com/vrutikadani/commission-engine) | Config-driven tiers, advances, true-ups, financing rules, leadership accelerators and caps | Covers **$4M+ revenue / quarter** |
-| 🗺️ [**Territory Optimizer**](https://github.com/vrutikadani/territory-optimizer) | Resilient geocoding, territory balance, naming standard, lead routing rules | **24 field reps + 12 account managers**, **$7.6M+ YTD** territory revenue |
-| ⚙️ [**CRM Automation Toolkit**](https://github.com/vrutikadani/crm-automation-toolkit) | HubSpot custom-code workflow, AR email triage agent, CRM AI assistant | Data requests **hours → under 10 min** |
+| [**HubSpot RevOps System**](https://github.com/vrutikadani/hubspot-revops-system) | Architecture of a full CRM I designed end to end: lifecycle engine, owner routing, tiered price approvals, service tickets | 700+ workflows (400+ active); lifecycle engine with 370K+ enrollments |
+| [**AI First-Touch SDR Agent**](https://github.com/vrutikadani/ai-sdr-agent) | Agent that qualifies inbound leads by email and hands buyers to reps, with guardrails and a draft-for-approval rollout | ~12 hrs/week of SDR work removed |
+| [**Commission Engine**](https://github.com/vrutikadani/commission-engine) | Config-driven tiers, advances, true-ups, financing rules, leadership accelerators and caps | $4M+ revenue covered every quarter |
+| [**Territory Optimizer**](https://github.com/vrutikadani/territory-optimizer) | Failure-safe geocoding, territory balance, naming standard, lead routing rules | 24 field reps + 12 account managers |
+| [**CRM Automation Toolkit**](https://github.com/vrutikadani/crm-automation-toolkit) | Custom-code CRM workflow, AR email triage agent, plain-language CRM assistant | Data requests: hours → under 10 min |
+| [**HubSpot ZIP Data Quality**](https://github.com/vrutikadani/hubspot-zip-data-quality) | Custom-code action that fixes city/state from ZIP by majority vote, with dry run and safety rules | Runs on contacts, companies and deals |
+| [**Greenway**](https://github.com/vrutikadani/Greenway-Phoenix-Sustainability) · [live demo](https://vrutikadani.github.io/Greenway-Phoenix-Sustainability/web/) | Phoenix waste drop-off finder + city waste analytics (ASU team project, rebuilt 2026) | Found a 31% overcount in the source data |
 
-Every repo runs offline on synthetic data and has tests. Company data stays private; the design and logic are real.
+### How I work
 
----
+- **Start with the user problem,** decide what is worth building, then align the system around it.
+- **Deterministic where it matters.** Models label and draft; routing, money math and matching are rules.
+- **Earn autonomy.** Draft-for-approval first, measured review, then automation, with a clear pause signal.
+- **Ship, measure, iterate.** Every system here has an owner, a metric and a v2 list.
 
-#### What I've led
+### Track record
 
-- **HubSpot → Salesforce migration** on a 6-month timeline with no disruption to active pipelines
-- **Commission automation** across CRM, ERP and commission software, so reps see attainment live
-- **Annual operating plan** (revenue + commission) built with the CFO for the board
-- **E-commerce migration** (WooCommerce → Shopify) and CRM–Shopify–ERP data associations
-- **0→1 SaaS product** at a startup: MVP to launch in 3 months, +15% member connections, +10% MRR
+- Led the **HubSpot → Salesforce migration** in 6 months with no disruption to active pipeline
+- Built the **annual operating plan** (revenue + commission) with the CFO for the board
+- Owned the **0→1 launch** of a professional-networking product, from discovery to MVP in 3 months (+10% MRR)
+- Wrote P&L variance commentary on **$100M+** of infrastructure spend for PNC Financial Services
+- **"Execution is Expected"** award, Geneo National Sales Meeting · Lumenis Presidential Award
 
-#### Toolbox
+### Toolbox
 
-`Python` `SQL` `JavaScript / Node` `Claude API & LLM agents` `MCP` `HubSpot` `Salesforce` `Shopify` `Power BI` `Tableau` `Excel modeling` `Power Automate / Copilot Studio` `Zapier` `n8n` `Clay` `Google Maps API`
+`Python` `SQL` `JavaScript / Node` `LLM APIs (Claude)` `AI agents & evaluation` `MCP` `Salesforce` `HubSpot` `Shopify` `Clay` `Power Automate / Copilot Studio` `Zapier` `n8n` `Power BI` `Tableau`
 
-#### Background
+### Background
 
-MS in Information Technology, Arizona State University (4.0 GPA) · Salesforce Certified Business Analyst · Tableau Desktop Specialist · Co-author, *Practical Data Mining Techniques and Applications* (Taylor & Francis, 2023) · Mentored 150+ students
+MS in Information Technology, Arizona State University (4.0) · Salesforce Certified Business Analyst · Tableau Desktop Specialist · Co-author, *Practical Data Mining Techniques and Applications* (Taylor & Francis, 2023) · Mentored 150+ students
 
-📫 [LinkedIn](https://www.linkedin.com/in/vrutikadani)
+I write about production AI agents, AI product management, GTM and revenue systems, CRM architecture, and evaluation and guardrails → [LinkedIn](https://www.linkedin.com/in/vrutikadani)
