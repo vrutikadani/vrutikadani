@@ -8,6 +8,7 @@ Day to day that means a HubSpot and Salesforce stack I own end to end: lifecycle
 
 **From signals to decisions**
 
+- [gtm-decision-engine](https://github.com/vrutikadani/gtm-decision-engine) ([live demo](https://vrutikadani.github.io/gtm-decision-engine/)): champion tracking, GTM briefs and pipeline decisions. Rules decide, the model labels and quotes, people resolve ambiguity. Every recommendation carries a rule-and-evidence trace, and seller corrections change what happens next. It also documents the hardest failure I hit while building it.
 - [account-signals](https://github.com/vrutikadani/account-signals): account signals in, a capacity-limited list of seller actions out. Decay, per-source caps and a fit gate decide priority; ordered rules decide who does what; a model only writes the note. Judged by meetings at seller capacity, not score accuracy.
 
 **Agents inside revenue workflows**
