@@ -10,6 +10,10 @@ I build systems that connect GTM data, decisions, and AI-driven action.
 
 > Evidence-backed champion tracking, GTM intelligence, and pipeline decisions with explicit uncertainty, provenance, seller feedback, and evaluation.
 
+**[Self-Serve Expansion Signals](https://github.com/vrutikadani/self-serve-expansion-signals)** · [live demo](https://vrutikadani.github.io/self-serve-expansion-signals/)
+
+> First-party product behavior → CRM context → explainable seller decisions, with suppression, feedback and false-negative auditing.
+
 **[Account prioritization in Clay](https://github.com/vrutikadani/clay-account-prioritization)**: progressive enrichment, evidence-backed GTM signals, deterministic scoring, separate confidence, buyer mapping and human QA.
 
 **[ai-sdr-agent](https://github.com/vrutikadani/ai-sdr-agent)**: first touch on inbound leads. The model labels replies; rules decide scoring, suppression and handoff; anything uncertain goes to a person.
