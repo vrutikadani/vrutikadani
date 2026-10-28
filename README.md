@@ -16,6 +16,10 @@ I build systems that connect GTM data, decisions, and AI-driven action.
 
 > Account-level product events scored against deterministic rules, with suppression, cooldowns and CRM-aware routing, seller feedback and false-negative auditing.
 
+**[AI Case Intake Agent](https://github.com/vrutikadani/ai-case-intake-agent)** · [live demo](https://vrutikadani.github.io/ai-case-intake-agent/)
+
+> Operational email → deterministic case identity → AI classification → auditable case state. A schema-constrained classifier judges each email; deterministic matching, thread memory and duplicate prevention decide what gets written, and anything uncertain goes to human review.
+
 **[ai-sdr-agent](https://github.com/vrutikadani/ai-sdr-agent)**: first touch on inbound leads. The model labels replies; rules decide scoring, suppression and handoff; anything uncertain goes to a person.
 
 **[hubspot-revops-system](https://github.com/vrutikadani/hubspot-revops-system)**: CRM architecture. Lifecycle as a forward-only state machine, routing as data, approvals that span workflows.
