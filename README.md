@@ -12,9 +12,9 @@ I build systems that connect GTM data, decisions, and AI-driven action.
 
 **[Account prioritization in Clay](https://github.com/vrutikadani/clay-account-prioritization)**: progressive enrichment, evidence-backed GTM signals, deterministic scoring, separate confidence, buyer mapping and human QA.
 
-**[Self-Serve Expansion Signals](https://github.com/vrutikadani/self-serve-expansion-signals)** · [live demo](https://vrutikadani.github.io/self-serve-expansion-signals/)
+**[Product Signal Router](https://github.com/vrutikadani/product-signal-router)** · [live demo](https://vrutikadani.github.io/product-signal-router/)
 
-> First-party product behavior → CRM context → explainable seller decisions, with suppression, feedback and false-negative auditing.
+> Account-level product events scored against deterministic rules, with suppression, cooldowns and CRM-aware routing, seller feedback and false-negative auditing.
 
 **[ai-sdr-agent](https://github.com/vrutikadani/ai-sdr-agent)**: first touch on inbound leads. The model labels replies; rules decide scoring, suppression and handoff; anything uncertain goes to a person.
 
